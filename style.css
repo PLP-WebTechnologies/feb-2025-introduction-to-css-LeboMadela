@@ -1,0 +1,36 @@
+/* style.css */
+
+/* Selector 1: Class */
+.important-text {
+    color: #52118f;
+    font-weight: semibold;
+    font-size: 16px;
+    padding: 15px;
+}
+
+/* Selector 2: ID */
+#main-image {
+    /* Margins */
+    margin: 20px;
+    /* Borders */
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #888;
+    /* Padding */
+    padding: 5px;
+    /* Adjust image width if needed */
+    width: 200px;
+    height: auto;
+    /* Ensures image fills container */
+    object-fit: cover;
+}
+
+/* Selector 3: Tag */
+p {
+    /* Different font */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+    color: #4564f0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
